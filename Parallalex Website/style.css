@@ -1,0 +1,41 @@
+/* Basic Reset for Body and HTML */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Parallax Section */
+.parallax {
+    /* The image used for the parallax background */
+    background-image: url(Japan1.jpg);
+
+    /* Set a specific height for the parallax section */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: cover; /* Ensures the background image covers the entire section */
+}
+
+/* Regular Content Section */
+.content {
+    height: 500px; /* Height of the content section */
+    background-color: white; /* Background color of the content section */
+    padding: 50px; /* Padding around the content */
+    text-align: center; /* Centers the text */
+}
+
+/* Heading Styles */
+.content h1, .content h2 {
+    margin: 0;
+}
+
+/* Paragraph Styles */
+.content p {
+    font-size: 18px;
+    line-height: 1.5; /* Line height for better readability */
+}

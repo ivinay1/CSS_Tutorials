@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.image
+{
+    padding: 200px;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    font-size: 30px;
+    color: white;
+    font-family: "Londrina Solid", sans-serif;
+    box-shadow: 0 0 5px black;
+}
+
